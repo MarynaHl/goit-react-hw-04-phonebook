@@ -1,3 +1,5 @@
+
+
 import styled from 'styled-components';
 
 export const ContactsList = styled.ul``;
@@ -10,7 +12,6 @@ export const ContactsListItem = styled.li`
   cursor: context-menu;
   border: 2px solid #fff;
   transition: border-color 300ms ease-out;
-
   &:hover {
     border-color: #ccc;
   }
