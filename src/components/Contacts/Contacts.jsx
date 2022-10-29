@@ -23,7 +23,7 @@ export default function Contacts({ arr, onDelContact }) {
   );
 }
 
-Contacts.propTypes = {
+Contacts.PropTypes = {
   arr: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,

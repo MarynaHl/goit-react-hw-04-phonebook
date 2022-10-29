@@ -64,6 +64,6 @@ export default function Form({ onSubmit }) {
   );
 }
 
-Form.propTypes = {
+Form.PropTypes = {
   onSubmit: PropTypes.func,
 };
